@@ -1,0 +1,22 @@
+.env
+.env.*
+!.env.example
+node_modules/
+coverage/
+
+# OS and editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs, caches, and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+.cache/
+
+# Temporary build artifacts (excluding dist/foundly-lambda.zip since it's the deployment artifact)
+# (If dist/ was fully temporary we'd ignore it, but since dist/foundly-lambda.zip is checked in/required, we can ignore other zips or just leave it)
